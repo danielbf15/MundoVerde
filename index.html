@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Mundo Verde | Offline</title>
+
+  <link rel="stylesheet" href="styles.css">
+  <script src="./core/utils.js"></script>
+  <script src="./core/base.js"></script>
+</head>
+
+<body>
+  <div class="app" role="application" aria-label="Prototipo plataforma educativa offline">
+    <header>
+      <div class="logo" aria-hidden="true">MV</div>
+      <div>
+        <h1>Mundo Verde | Offline</h1>
+        <p class="lead">
+          Prototipo básico con navegación de contenidos, quizzes y panel docente. Guarda progreso localmente.
+        </p>
+      </div>
+      <div class="header-options">
+        <button class="btn" id="teacherBtn" title="Panel docente (contraseña)">Panel docente</button>
+        <button class="btn ghost" id="importBtn">Importar JSON</button>
+        <button class="btn ghost" id="exportBtn">Exportar JSON</button>
+      </div>
+    </header>
+
+    <main>
+      <aside class="sidebar" aria-label="Navegación por asignaturas">
+        <div>
+          <div class="section-title">Asignaturas</div>
+          <div class="subject-list" id="subjects"></div>
+        </div>
+
+        <div>
+          <div class="section-title">Progreso</div>
+          <div id="progressSummary" class="muted">Cargando...</div>
+        </div>
+
+        <div>
+          <div class="section-title">Ayuda</div>
+          <div class="muted">Uso offline. Para actualizar contenidos use "Importar JSON" desde disco local o memoria USB/SD.</div>
+        </div>
+      </aside>
+
+      <section class="content" id="contentArea" tabindex="0" aria-live="polite">
+        <h2>Bienvenido</h2>
+        <div class="meta">Selecciona una asignatura y lección a la izquierda para comenzar.</div>
+        <div class="lesson-body">
+          <p>
+            Este prototipo demuestra las funciones clave del proyecto: acceso offline, registro local de avance,
+            gestión de contenidos y exportación/importación para sincronizar por medios físicos. Está pensado para
+            equipos con recursos limitados y uso en aula rural.
+          </p>
+        </div>
+        <footer class="app-foot">
+          <div>
+            <span class="muted">Consejo:</span> use navegador moderno y mantenga el archivo JSON de respaldo.
+          </div>
+        </footer>
+      </section>
+    </main>
+  </div>
+
+  <div class="modal" id="modal" role="dialog" aria-modal="true" aria-hidden="true">
+    <div class="card" role="document">
+      <div style="display:flex;justify-content:space-between;align-items:center">
+        <h3 id="modalTitle">Panel docente</h3>
+        <div style="display:flex;gap:8px;align-items:center">
+          <button class="btn" id="closeModal">Cerrar</button>
+        </div>
+      </div>
+
+      <div id="authArea">
+        <p class="muted">Ingrese la contraseña docente para acceder (prototipo): <span class="kbd">edu-offline</span>
+        </p>
+        <label>Contraseña</label>
+        <input type="text" id="pwd" placeholder="Contraseña" />
+        <div style="margin-top:10px;display:flex;gap:8px">
+          <button class="btn" id="loginBtn">Ingresar</button>
+        </div>
+      </div>
+
+      <div id="adminArea" style="display:none;margin-top:10px">
+        <div style="display:flex;gap:8px;margin-bottom:8px">
+          <button class="btn" id="newLessonBtn">Nueva lección</button>
+          <button class="btn ghost" id="clearProgress">Borrar progreso</button>
+          <button class="btn ghost" id="downloadBackup">Descargar respaldo</button>
+        </div>
+
+        <div style="margin-top:8px">
+          <label>Contenido (JSON)</label>
+          <textarea id="bulkJson" rows="8"></textarea>
+          <div style="display:flex;gap:8px;margin-top:8px">
+            <button class="btn" id="applyJson">Aplicar JSON</button>
+            <button class="btn ghost" id="resetToSample">Restaurar ejemplo</button>
+          </div>
+        </div>
+
+        <div id="lessonsEditor" style="margin-top:12px"></div>
+      </div>
+
+      <input type="file" id="fileInput" accept=".json" style="display:none" />
+    </div>
+  </div>
+      
+  <footer>
+    <div>Mundo Verde • 2025 • Versión 1 • Daniel Bernal | Dana Devia</div>
+  </footer>
+
+  <script src="./core/app.js"></script>
+</body>
+
+</html>

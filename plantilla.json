@@ -1,0 +1,226 @@
+[
+  {
+    "id": "id-tmrvtae",
+    "subject": "Matemáticas",
+    "title": "Sumas básicas",
+    "body": "<p>Aprendamos a sumar números naturales. Ejemplo: 2 + 3 = 5.</p>",
+    "media": "media/matematicas.mp4",
+    "quiz": {
+      "question": "¿Cuánto es 4 + 2?",
+      "choices": [
+        "4",
+        "5",
+        "6"
+      ],
+      "answer": 2
+    }
+  },
+  {
+    "id": "id-334jw9g",
+    "subject": "Matemáticas",
+    "title": "Restas básicas",
+    "body": "<p>Aprendamos a restar números naturales. Ejemplo: 3 - 2 = 1.</p>",
+    "media": "media/matematicas.mp4",
+    "quiz": {
+      "question": "¿Cuánto es 9 - 2?",
+      "choices": [
+        "4",
+        "7",
+        "6"
+      ],
+      "answer": 1
+    }
+  },
+  {
+    "id": "id-788rso1",
+    "subject": "Ciencias",
+    "title": "Ciclo del agua",
+    "body": "<p>El ciclo del agua comprende evaporación, condensación, precipitación y escorrentía.</p>",
+    "media": "",
+    "quiz": {
+      "question": "¿Qué proceso convierte agua en vapor?",
+      "choices": [
+        "Condensación",
+        "Evaporación",
+        "Precipitación"
+      ],
+      "answer": 1
+    }
+  },
+  {
+    "id": "id-ueiup13",
+    "subject": "Lenguaje",
+    "title": "Lectura comprensiva",
+    "body": "<p>Práctica de lectura con preguntas cortas para fortalecer comprensión.</p>",
+    "media": "",
+    "quiz": {
+      "question": "¿Qué debes hacer para entender un texto?",
+      "choices": [
+        "Leer con atención",
+        "Saltar líneas",
+        "Ignorar el título"
+      ],
+      "answer": 0
+    }
+  },
+  {
+    "id": "id-jsjf5s7",
+    "subject": "Asignatura Ejemplo 1",
+    "title": "Lección Ejemplo 1",
+    "body": "<p>Lorem ipsum dolor sit amet consectetur adipiscing elit dictumst ultrices pulvinar, donec a ad ridiculus euismod quam velit primis nunc, magna eros natoque aptent sociis dis sem et quisque. Accumsan rhoncus congue nostra porta hendrerit faucibus habitasse cubilia iaculis facilisis, est mattis molestie nec eros ac feugiat magnis cras, vivamus lobortis egestas varius phasellus ad volutpat scelerisque dis. Placerat fringilla congue laoreet mus faucibus nec cursus odio, vulputate potenti aenean neque urna ultricies sapien, natoque sem phasellus sollicitudin imperdiet taciti mauris.</p>",
+    "media": "media/google_youtube.jpg",
+    "quiz": {
+      "question": "Pregunta ejemplo",
+      "choices": [
+        "Opción 1",
+        "Opción 2",
+        "Opción 3"
+      ],
+      "answer": 0
+    }
+  },
+  {
+    "id": "id-ksyrt56e",
+    "subject": "Asignatura Ejemplo 1",
+    "title": "Lección Ejemplo 2",
+    "body": "<p>Suscipit dis porta egestas cras cubilia pellentesque nullam rutrum semper feugiat commodo condimentum natoque auctor felis pulvinar porttitor, integer suspendisse non augue scelerisque senectus sapien fames elementum luctus massa primis consequat ante molestie. Vitae aliquam ad nulla donec erat convallis sollicitudin aliquet habitasse duis vivamus, tempus interdum proin suspendisse placerat integer pellentesque semper mus ut, tortor himenaeos nibh aptent diam curabitur euismod risus lacinia enim. Dignissim primis himenaeos pretium praesent ligula conubia vehicula integer, mus nostra gravida porttitor litora condimentum in, mauris eleifend magnis tellus nam lacinia habitant. Eu dictumst cursus nullam porttitor accumsan mi cras taciti, quis eget pretium malesuada dis mus ultrices rhoncus, nascetur ante varius ad molestie eros primis.</p>",
+    "media": "media/resizeimage.webp",
+    "quiz": {
+      "question": "Pregunta ejemplo",
+      "choices": [
+        "Opción 1",
+        "Opción 2",
+        "Opción 3"
+      ],
+      "answer": 1
+    }
+  },
+  {
+    "id": "id-katfme45",
+    "subject": "Asignatura Ejemplo 1",
+    "title": "Lección Ejemplo 3",
+    "body": "<p>Vestibulum dapibus mus ligula urna venenatis ullamcorper platea praesent, laoreet potenti iaculis bibendum sapien id primis aliquam, molestie fames senectus taciti vitae lobortis hendrerit. Sociis facilisi vel tortor fringilla a tellus magna in pulvinar aptent, odio habitasse mauris sed condimentum quisque tempus ante. Nullam vivamus tortor ac diam maecenas malesuada viverra conubia, vestibulum fames augue torquent fringilla semper hac, blandit proin a euismod venenatis et potenti. Cum etiam id tempus cursus non aenean habitant dignissim sociosqu eget quam, risus praesent euismod eros sed quisque purus ornare hac platea, urna pulvinar vulputate ligula mauris litora conubia habitasse donec dictumst.</p>",
+    "media": "media/education.mp4",
+    "quiz": {
+      "question": "Pregunta ejemplo",
+      "choices": [
+        "Opción 1",
+        "Opción 2",
+        "Opción 3"
+      ],
+      "answer": 2
+    }
+  },
+  {
+    "id": "id-aewu345",
+    "subject": "Asignatura Ejemplo 2",
+    "title": "Lección Ejemplo 4",
+    "body": "<p>Lacus tortor tempus molestie cursus nibh ad rutrum natoque urna euismod, torquent hac imperdiet eros proin taciti consequat porttitor eleifend. Hendrerit sagittis sollicitudin aliquet nulla eget feugiat montes nec sem fermentum ornare, integer cubilia phasellus natoque cras luctus in imperdiet porta magna urna massa, venenatis iaculis nisi suscipit sapien eleifend cum platea ligula at. Per morbi laoreet nostra vitae egestas viverra habitasse pellentesque, placerat condimentum erat massa eget ultrices orci, fusce libero dui cum lobortis nisi tortor.</p>",
+    "media": "media/google_youtube.jpg",
+    "quiz": {
+      "question": "Pregunta ejemplo",
+      "choices": [
+        "Opción 1",
+        "Opción 2",
+        "Opción 3"
+      ],
+      "answer": 2
+    }
+  },
+  {
+    "id": "id-proiie4",
+    "subject": "Asignatura Ejemplo 2",
+    "title": "Lección Ejemplo 5",
+    "body": "<p>Velit class at maecenas cum netus congue convallis sed fringilla libero, ullamcorper mi pretium urna senectus pellentesque quam aptent dis, hendrerit lacus ultrices tincidunt nisl auctor dapibus donec sodales. Semper aliquam enim odio etiam eu proin, taciti himenaeos parturient vehicula ullamcorper, molestie habitant blandit viverra suscipit. Diam nulla hendrerit netus venenatis porta platea inceptos quisque sociosqu integer, curabitur torquent ultricies elementum curae litora sem lobortis vitae, dui orci et penatibus rutrum senectus aptent scelerisque turpis. Tristique quisque mauris convallis euismod cubilia magna praesent, vivamus vitae integer nostra tempus mus.</p>",
+    "media": "media/education.mp4",
+    "quiz": {
+      "question": "Pregunta ejemplo",
+      "choices": [
+        "Opción 1",
+        "Opción 2",
+        "Opción 3"
+      ],
+      "answer": 0
+    }
+  },
+  {
+    "id": "id-mnxcbe0",
+    "subject": "Asignatura Ejemplo 2",
+    "title": "Lección Ejemplo 6",
+    "body": "<p>Elementum montes accumsan magna maecenas pharetra, justo tellus convallis fringilla conubia, eros dui sodales felis. Nullam fringilla lacinia auctor velit nunc convallis justo habitant proin, ante consequat platea posuere mus quis himenaeos. Tristique senectus pulvinar accumsan sollicitudin montes erat lectus dis per eget tortor sed maecenas phasellus sapien aenean egestas convallis, litora venenatis magna pellentesque potenti mauris rutrum curae platea cras lacus mus nullam eu et etiam praesent.</p>",
+    "media": "media/resizeimage.webp",
+    "quiz": {
+      "question": "Pregunta ejemplo",
+      "choices": [
+        "Opción 1",
+        "Opción 2",
+        "Opción 3"
+      ],
+      "answer": 0
+    }
+  },
+  {
+    "id": "id-iagrk5q",
+    "subject": "Asignatura Ejemplo 2",
+    "title": "Lección Ejemplo 7",
+    "body": "<p>Arcu potenti aliquam conubia etiam nam nunc sollicitudin urna scelerisque consequat, maecenas molestie ac at blandit ad sagittis laoreet id per, accumsan tristique porta luctus erat vitae odio rutrum justo. Tristique fames sed vehicula massa tempus donec tortor rutrum, arcu feugiat consequat curae montes pellentesque penatibus quisque, praesent nec facilisi dui ridiculus non habitant. Dis nascetur malesuada suscipit dapibus donec a convallis rhoncus senectus, mauris torquent laoreet phasellus tristique faucibus nunc pulvinar, iaculis tincidunt pretium varius nostra risus lobortis vulputate.</p>",
+    "media": "media/google_youtube.jpg",
+    "quiz": {
+      "question": "Pregunta ejemplo",
+      "choices": [
+        "Opción 1",
+        "Opción 2",
+        "Opción 3"
+      ],
+      "answer": 1
+    }
+  },
+  {
+    "id": "id-647wr5s",
+    "subject": "Asignatura Ejemplo 3",
+    "title": "Lección Ejemplo 8",
+    "body": "<p>Et commodo himenaeos blandit eleifend urna a lectus pharetra sed nec aliquam tortor torquent, odio nibh fames ullamcorper inceptos est iaculis felis faucibus dictum dignissim. Sapien fames ullamcorper varius faucibus commodo ridiculus a torquent ac lobortis sed parturient, proin nec enim mauris ultricies elementum dignissim vitae curabitur dis felis nisl nullam, laoreet bibendum pellentesque fusce mi facilisi primis penatibus tellus curae sollicitudin. Urna sed sodales condimentum est taciti ac montes ad, sollicitudin ultricies mauris orci mus donec ullamcorper, malesuada himenaeos sociosqu interdum blandit suscipit accumsan neque, nibh turpis sapien curabitur torquent venenatis.</p>",
+    "media": "media/resizeimage.webp",
+    "quiz": {
+      "question": "Pregunta ejemplo",
+      "choices": [
+        "Opción 1",
+        "Opción 2",
+        "Opción 3"
+      ],
+      "answer": 2
+    }
+  },
+  {
+    "id": "id-oaore68",
+    "subject": "Asignatura Ejemplo 3",
+    "title": "Lección Ejemplo 9",
+    "body": "<p>Ridiculus vulputate auctor varius facilisis tristique leo fringilla dapibus etiam cursus, per lobortis magnis donec augue himenaeos fames phasellus massa pellentesque, dignissim pretium habitasse euismod mollis suspendisse velit bibendum purus. Leo curabitur non ut curae risus massa fermentum metus cubilia molestie rhoncus habitasse maecenas odio, ac eget auctor scelerisque condimentum quisque dictum pellentesque montes ornare vel natoque commodo. Blandit sed phasellus at fermentum facilisi suscipit lacinia, condimentum est feugiat massa convallis praesent quis, habitant dui tristique dictumst egestas cursus.</p>",
+    "media": "media/google_youtube.jpg",
+    "quiz": {
+      "question": "Pregunta ejemplo",
+      "choices": [
+        "Opción 1",
+        "Opción 2",
+        "Opción 3"
+      ],
+      "answer": 1
+    }
+  },
+  {
+    "id": "id-qiauea5",
+    "subject": "Asignatura Ejemplo 4",
+    "title": "Lección Ejemplo 10",
+    "body": "<p>Placerat tellus nec vehicula vivamus nibh rhoncus aliquet, accumsan sed congue ac etiam vestibulum sollicitudin, bibendum est nulla ullamcorper lobortis rutrum phasellus, diam senectus id aptent dui purus. Condimentum mattis habitant tellus ligula sem habitasse lectus mollis, molestie cum diam tristique taciti morbi. Condimentum litora molestie metus duis etiam feugiat proin, sem ullamcorper phasellus diam neque ac luctus parturient, ad magna scelerisque penatibus a justo. Nulla conubia lobortis etiam nisi primis morbi, risus felis ut torquent litora sociis, mattis fames vehicula ullamcorper euismod.</p>",
+    "media": "media/nature.mp4",
+    "quiz": {
+      "question": "Pregunta ejemplo",
+      "choices": [
+        "Opción 1",
+        "Opción 2",
+        "Opción 3"
+      ],
+      "answer": 0
+    }
+  }
+]

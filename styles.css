@@ -1,0 +1,279 @@
+:root {
+  --bg: #f6f8f5;
+  --card: #ffffff;
+  --accent: #2b8a3e;
+  --muted: #6b7280;
+  --danger: #c53030;
+  --glass: rgba(255, 255, 255, 0.6);
+  --letter: #0f172a;
+  font-family: Roboto, "Helvetica Neue", Arial;
+  color-scheme: light;
+}
+
+* {
+  box-sizing: border-box
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  background: var(--bg);
+  color: var(--letter);
+}
+
+.app {
+  max-width: 1100px;
+  margin: 18px auto;
+  padding: 12px;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.logo {
+  width: 56px;
+  height: 56px;
+  border-radius: 8px;
+  display: grid;
+  place-items: center;
+  background: var(--accent);
+  color: white;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+h1 {
+  font-size: 20px;
+  margin: 0;
+}
+
+p.lead {
+  margin: 0;
+  color: var(--muted);
+  font-size: 13px;
+}
+
+.header-options {
+  margin-left:auto;
+  display:flex;
+  gap:8px;
+  align-items:center;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 320px 1fr;
+  gap: 14px;
+  margin-top: 14px;
+}
+
+.sidebar {
+  background: var(--card);
+  padding: 12px;
+  border-radius: 10px;
+  box-shadow: 0 1px 4px rgba(10, 10, 10, 0.04);
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.section-title {
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+.subject-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.subject {
+  padding: 10px;
+  border-radius: 8px;
+  background: var(--glass);
+  cursor: pointer;
+  border: 1px solid rgba(15, 23, 42, 0.04);
+}
+
+.subject.active {
+  outline: 2px solid rgba(43, 138, 62, 0.12);
+  background: linear-gradient(180deg, #ffffff, #f7fff7);
+}
+
+.lesson {
+  padding: 8px;
+  border-radius: 6px;
+  margin-left: 6px;
+  font-size: 14px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.lesson:hover {
+  text-decoration: underline;
+}
+
+.btn {
+  display: inline-block;
+  padding: 8px 12px;
+  border-radius: 8px;
+  background: var(--accent);
+  color: white;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.btn.ghost {
+  background: transparent;
+  color: var(--accent);
+  border: 1px solid rgba(43, 138, 62, 0.18);
+}
+
+.small {
+  font-size: 13px;
+  padding: 6px 8px;
+  border-radius: 6px;
+}
+
+.content {
+  background: var(--card);
+  padding: 16px;
+  border-radius: 10px;
+  min-height: 60vh;
+  box-shadow: 0 1px 4px rgba(10, 10, 10, 0.04);
+}
+
+.content h2 {
+  margin: 4px 0 8px;
+}
+
+.meta {
+  color: var(--muted);
+  font-size: 13px;
+  margin-bottom: 12px;
+}
+
+.lesson-body {
+  padding: 10px;
+  background: #fbfdfb;
+  border-radius: 8px;
+  border: 1px dashed rgba(15, 23, 42, 0.03);
+}
+
+.quiz {
+  margin-top: 12px;
+}
+
+.question {
+  margin-bottom: 8px;
+}
+
+.choices {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.choice-btn {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid rgba(15, 23, 42, 0.06);
+  cursor: pointer;
+  background: white;
+  text-align: left;
+}
+
+.choice-btn.correct {
+  outline: 2px solid rgba(43, 138, 62, 0.2);
+}
+
+.choice-btn.wrong {
+  outline: 2px solid rgba(197, 48, 48, 0.18);
+}
+
+footer {
+  padding-bottom: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 13px;
+  color: var(--muted);
+}
+
+footer.app-foot {
+  margin-top: 12px;
+  padding-bottom: 0;
+  justify-content: space-between;
+}
+
+.modal {
+  position: fixed;
+  inset: 0;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  background: rgba(5, 5, 7, 0.45);
+  padding: 16px;
+}
+
+.modal.open {
+  display: flex;
+}
+
+.card {
+  background: var(--card);
+  padding: 14px;
+  border-radius: 10px;
+  max-width: 880px;
+  width: 100%;
+  max-height: 640px;
+  box-shadow: 0 6px 30px rgba(10, 10, 10, 0.12);
+  overflow-y: auto;
+}
+
+label {
+  display: block;
+  font-size: 13px;
+  margin-top: 8px;
+}
+
+input[type="text"],
+textarea,
+select {
+  width: 100%;
+  padding: 8px;
+  border-radius: 8px;
+  border: 1px solid rgba(15, 23, 42, 0.06);
+  margin-top: 6px;
+}
+
+.kbd {
+  background: #111827;
+  color: white;
+  padding: 4px 8px;
+  border-radius: 6px;
+  font-size: 12px;
+}
+
+@media (max-width:900px) {
+  main {
+    grid-template-columns: 1fr;
+  }
+
+  .sidebar {
+    order: 2;
+  }
+
+  .content {
+    order: 1;
+  }
+}
