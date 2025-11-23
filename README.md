@@ -40,7 +40,7 @@ Estas tecnologías fueron elegidas por su capacidad de funcionar en condiciones 
 
 1. Clona este repositorio:  
    ```bash
-   git clone https://github.com/tuusuario/mundo-verde.git
+   git clone https://github.com/danielbf15/MundoVerde.git
 
 2. Abre el archivo `index.html` en cualquier navegador.
 
